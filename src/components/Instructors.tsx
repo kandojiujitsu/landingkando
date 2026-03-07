@@ -32,17 +32,11 @@ export default function Instructors() {
             <img
               src="https://lh3.googleusercontent.com/d/1_NKOyuYmtN-JIoQKPY3IQEWgscj9sQWR"
               alt="Aline Coelho e Pedro Cairo"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[center_20%]"
               referrerPolicy="no-referrer"
             />
             {/* Dark Gradient Overlay - Bottom to Top */}
             <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-zinc-900/40 to-transparent"></div>
-            
-            {/* Desktop Overlaid Labels */}
-            <div className="absolute top-8 right-8 bg-red-600 text-white px-6 py-3 rounded-2xl shadow-xl hidden md:block">
-              <p className="font-black text-2xl leading-none tracking-tighter">MESTRES</p>
-              <p className="text-[10px] uppercase font-bold tracking-widest opacity-80">Kando Jiu Jitsu</p>
-            </div>
           </motion.div>
 
           {/* Cards Container - Overlapping the image */}
